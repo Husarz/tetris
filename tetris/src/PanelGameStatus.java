@@ -36,7 +36,7 @@ public class PanelGameStatus extends JPanel implements PropertyChangeListener {
 		add(Score = new JLabel(" punkty : "));
 		Score.setSize(75,30);
 		Score.setLocation(10,15);
-		this.Score = new JLabel(" Iloœæ punktów ");
+		this.Score = new JLabel(" Ilosc punktow ");
 		add(Score);
 		Font font = new Font("Serif",Font.BOLD|Font.PLAIN,22);
 		Score.setFont(font);
@@ -50,7 +50,7 @@ public class PanelGameStatus extends JPanel implements PropertyChangeListener {
 		add(Line = new JLabel(" linie : "));
 		Line.setSize(75,30);
 		Line.setLocation(10,70);
-		this.Line = new JLabel(" Iloœæ linii ");
+		this.Line = new JLabel(" Iloï¿½ï¿½ linii ");
 		add(Line);
 		Line.setFont(font);
 		Line.setOpaque(true);
@@ -59,7 +59,7 @@ public class PanelGameStatus extends JPanel implements PropertyChangeListener {
 		Line.setSize(120,30);
 		Line.setLocation(70,70);
 		
-		add(kl = new JLabel(" nastêpny klocek : "));
+		add(kl = new JLabel(" nastï¿½pny klocek : "));
 		kl.setSize(150,30);
 		kl.setLocation(70,160);
 		klocek = new LabelDraw();
